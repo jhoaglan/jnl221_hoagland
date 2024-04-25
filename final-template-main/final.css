@@ -1,20 +1,21 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: black;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
-	font-family: 'Times New Roman' serif; 
+	font-family: 'Times New Roman', serif; 
+	color: white;
 }
 .header {
-	background-color: #aaaaaa;
+	background-color: #FF6700;
 	height: auto;
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	
+	color: white;
 }
 h4 {
 	font-style: italic;
@@ -23,6 +24,7 @@ h4 {
 }
 h3 {
 	font-size: 30px;
+	font-family: "Manrope", sans-serif;
 }
 .img {
 	float: right;
@@ -34,12 +36,15 @@ h3 {
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
- .list {
+ .img {
  	float: none;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
+ }
+ .footer p {
+ 	background-color: indianred;
+ }
+ .list {
+ 	border: 2px solid darkgray;
+ 	padding-left: 10px;
  }
  iframe {
  	min-width: 90%;
